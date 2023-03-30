@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#wrapper_top_button_left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+#wrapper_top_button_right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+#wrapper_top_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+}
+#home_button {
+  border-bottom: solid 5px;
+  border-color: #00bdd6;
+  color: #00bdd6;
+}
+#search_box {
+  background-color: gainsboro;
+  padding: 5px;
+}
+#logo {
+  width: 90px;
+  height: 30px;
+}
+#text_shadow {
+  color: transparent;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#rate {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 8%;
+  width: 50%;
+}
+#likeandshare {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 15%;
+  margin-bottom: 10px;
+}
+#wrapper_center_rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#wrapper_center {
+  padding: 50px 150px 150px 150px;
+}
+#wrapper_center_images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 10px;
+}
+#images_formart {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 12px;
+}
+#select_price {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #f3f4f6;
+  margin: 5px;
+}
+#price_select {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+#total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#btnb1 {
+  width: 300px;
+  height: 35px;
+  margin: 5px;
+  background-color: #00bdd6;
+  border: 0px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+#btnb2 {
+  width: 300px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: #ffffff;
+  border: solid 1px;
+  border-color: #00bdd6;
+  border-radius: 5px;
+  color: #00bdd6;
+}
+#wrapper_center_textandprice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#price {
+  padding-top: 50px;
+}
+#left {
+  margin-bottom: 100px;
+}
+#sp_icon {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 300px;
+}
+#icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 100px;
+}
+#rw_sp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+}
